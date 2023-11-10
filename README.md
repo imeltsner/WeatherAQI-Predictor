@@ -1,1 +1,1 @@
-# weather-aqi-predictor
+# Weather AQI Predictor
