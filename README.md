@@ -50,6 +50,9 @@ Explore more complex models and machine learning techniques to improve predictio
 
 
 ## Authors
+
+[@mlubarsky](https://github.com/mlubarsky)
+
 [@imeltsner](https://github.com/imeltsner)
 
 [@aleonlopez](https://github.com/aleonlopez)
