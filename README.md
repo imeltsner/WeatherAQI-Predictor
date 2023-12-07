@@ -20,9 +20,14 @@ Ozone Concentration & PM2.5: Critical pollutants affecting air quality.
 Weather Features: Including temperature (Max/Min/Mean), dew point, humidity, sea level pressure, visibility, wind speed, precipitation, and cloud cover.
 
 ## Modeling Approach
-The project employs a linear regression model trained on data from the 1980s and tested on data from the 1990s.
-It includes an exploratory data analysis (EDA) to understand trends and relationships in the data.
-The model is evaluated based on Mean Absolute Error (MAE) and Mean Squared Error (MSE) metrics to assess prediction accuracy.
+Time Series Model Forecasting Long Short-Term Memory
+trained on data from the 1980s and tested on data from the 1990s.
+This model combines the traditional time series analysis with advanced LSTM (Long Short-Term Memory)/
+A Time Series Model is used to analyze and predict time-ordered data points.
+For example, an ARIMA (AutoRegressive Integrated Moving Average) can be used in this instance.
+An LSTM is a recurrent neural network, meaning that it can handle sequences of data.
+Its memory capability allows it to remember and utilize past information effectively, which is crucial in predicting future AQI values.
+
 
 ## Model Validation
 The model's predictions are compared against actual AQI values from past events to gauge its accuracy.
@@ -40,6 +45,7 @@ AQI data: https://aqs.epa.gov/aqsweb/airdata/download_files.html#AQI
 
 PM2.5 data: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
 
+Ozone concentration data: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
 
 ## Usage
 Users can clone the repository and run the Jupyter notebook to explore the model and datasets.
