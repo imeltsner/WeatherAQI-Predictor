@@ -45,6 +45,7 @@ AQI data: https://aqs.epa.gov/aqsweb/airdata/download_files.html#AQI
 
 PM2.5 data: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
 
+Ozone concentration data: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
 
 ## Usage
 Users can clone the repository and run the Jupyter notebook to explore the model and datasets.
